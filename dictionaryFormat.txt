@@ -1,0 +1,57 @@
+d = {
+    "status": True,
+    "code": 200,
+    "message": "Success.",
+    "error": "",
+    "data": {
+        "boardingInfo": {
+            "trainId": 2728, 
+            "stationId": 6028, 
+            "arrivalTime": "16:33:00", 
+            "departureTime": "16:35:00", 
+            "haltTime": "00:02:00", 
+            "stationCode": "KPD", 
+            "stationName": "Katpadi Jn", 
+            "travellingDay": 1, 
+            "distance": "105", 
+            "platform": "0"
+        },
+        "destinationInfo": {
+            "trainId": 2728, 
+            "stationId": 4911, 
+            "arrivalTime": "15:56:00", 
+            "departureTime": "15:58:00", 
+            "haltTime": "00:02:00", 
+            "stationCode": "CTO", 
+            "stationName": "Chittoor", 
+            "travellingDay": 1, 
+            "distance": "72", 
+            "platform": "2"
+        }, 
+        "seatInfo": {"coach": "D2", "berth": "60", "noOfSeats": 1}, 
+        "trainInfo": {
+            "trainNo": "22618", 
+            "name": "TIRUPATHI EXP", 
+            "boarding": "KPD", 
+            "destination": "CTO", 
+            "dt": "20-03-2023", 
+            "boardingDayCount": None, 
+            "fromStationName": None, 
+            "toStationName": None, 
+            "origin": None
+        }, 
+        "passengerInfo": [], 
+        "trainRoutes": [
+            {"trainId": 2728, "stationId": 5024, "arrivalTime": "14:50:00", "departureTime": "14:50:00", "haltTime": "00:00:00", "stationCode": "TPTY", "stationName": "Tirupati", "travellingDay": 1, "distance": "0", "platform": "1"}, 
+            {"trainId": 2728, "stationId": 4854, "arrivalTime": "15:24:00", "departureTime": "15:25:00", "haltTime": "00:01:00", "stationCode": "PAK", "stationName": "Pakala Jn", "travellingDay": 1, "distance": "42", "platform": "2"}, 
+            {"trainId": 2728, "stationId": 4911, "arrivalTime": "15:56:00", "departureTime": "15:58:00", "haltTime": "00:02:00", "stationCode": "CTO", "stationName": "Chittoor", "travellingDay": 1, "distance": "72", "platform": "2"}, 
+            {"trainId": 2728, "stationId": 6028, "arrivalTime": "16:33:00", "departureTime": "16:35:00", "haltTime": "00:02:00", "stationCode": "KPD", "stationName": "Katpadi Jn", "travellingDay": 1, "distance": "105", "platform": "0"}, 
+            {"trainId": 2728, "stationId": 6022, "arrivalTime": "18:09:00", "departureTime": "18:10:00", "haltTime": "00:01:00", "stationCode": "JTJ", "stationName": "Jolarpettai", "travellingDay": 1, "distance": "189", "platform": "0"}, 
+            {"trainId": 2728, "stationId": 6888, "arrivalTime": "18:29:00", "departureTime": "18:30:00", "haltTime": "00:01:00", "stationCode": "KPN", "stationName": "Kuppam", "travellingDay": 1, "distance": "230", "platform": "2"}, 
+            {"trainId": 2728, "stationId": 6844, "arrivalTime": "19:08:00", "departureTime": "19:10:00", "haltTime": "00:02:00", "stationCode": "BWT", "stationName": "Bangarapet", "travellingDay": 1, "distance": "264", "platform": "3"}, 
+            {"trainId": 2728, "stationId": 6886, "arrivalTime": "19:58:00", "departureTime": "20:00:00", "haltTime": "00:02:00", "stationCode": "KJM", "stationName": "Krishnarajapurm", "travellingDay": 1, "distance": "320", "platform": "3"}, 
+            {"trainId": 2728, "stationId": 6840, "arrivalTime": "20:08:00", "departureTime": "20:10:00", "haltTime": "00:02:00", "stationCode": "BNC", "stationName": "Bengaluru Cant", "travellingDay": 1, "distance": "330", "platform": "1"}, 
+            {"trainId": 2728, "stationId": 6924, "arrivalTime": "20:40:00", "departureTime": "20:40:00", "haltTime": "00:00:00", "stationCode": "SBC", "stationName": "Ksr Bengaluru", "travellingDay": 1, "distance": "334", "platform": "7"}
+        ]
+    }
+}
